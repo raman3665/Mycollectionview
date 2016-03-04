@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A80F78C91C89662E0081E9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80F78C81C89662E0081E9B5 /* AppDelegate.swift */; };
+		A80F78CB1C89662E0081E9B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80F78CA1C89662E0081E9B5 /* ViewController.swift */; };
+		A80F78CE1C89662E0081E9B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80F78CC1C89662E0081E9B5 /* Main.storyboard */; };
+		A80F78D01C89662E0081E9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80F78CF1C89662E0081E9B5 /* Assets.xcassets */; };
+		A80F78D31C89662E0081E9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80F78D11C89662E0081E9B5 /* LaunchScreen.storyboard */; };
+		A80F78DE1C89662E0081E9B5 /* ArnavTask1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80F78DD1C89662E0081E9B5 /* ArnavTask1Tests.swift */; };
+		A80F78E91C89662E0081E9B5 /* ArnavTask1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80F78E81C89662E0081E9B5 /* ArnavTask1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A80F78DA1C89662E0081E9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80F78BD1C89662E0081E9B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80F78C41C89662E0081E9B5;
+			remoteInfo = ArnavTask1;
+		};
+		A80F78E51C89662E0081E9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80F78BD1C89662E0081E9B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80F78C41C89662E0081E9B5;
+			remoteInfo = ArnavTask1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A80F78C51C89662E0081E9B5 /* ArnavTask1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArnavTask1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80F78C81C89662E0081E9B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A80F78CA1C89662E0081E9B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A80F78CD1C89662E0081E9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A80F78CF1C89662E0081E9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A80F78D21C89662E0081E9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A80F78D41C89662E0081E9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80F78D91C89662E0081E9B5 /* ArnavTask1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArnavTask1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80F78DD1C89662E0081E9B5 /* ArnavTask1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArnavTask1Tests.swift; sourceTree = "<group>"; };
+		A80F78DF1C89662E0081E9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80F78E41C89662E0081E9B5 /* ArnavTask1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArnavTask1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80F78E81C89662E0081E9B5 /* ArnavTask1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArnavTask1UITests.swift; sourceTree = "<group>"; };
+		A80F78EA1C89662E0081E9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A80F78C21C89662E0081E9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80F78D61C89662E0081E9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80F78E11C89662E0081E9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80F78BC1C89662E0081E9B5 = {
+			isa = PBXGroup;
+			children = (
+				A80F78C71C89662E0081E9B5 /* ArnavTask1 */,
+				A80F78DC1C89662E0081E9B5 /* ArnavTask1Tests */,
+				A80F78E71C89662E0081E9B5 /* ArnavTask1UITests */,
+				A80F78C61C89662E0081E9B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A80F78C61C89662E0081E9B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80F78C51C89662E0081E9B5 /* ArnavTask1.app */,
+				A80F78D91C89662E0081E9B5 /* ArnavTask1Tests.xctest */,
+				A80F78E41C89662E0081E9B5 /* ArnavTask1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A80F78C71C89662E0081E9B5 /* ArnavTask1 */ = {
+			isa = PBXGroup;
+			children = (
+				A80F78C81C89662E0081E9B5 /* AppDelegate.swift */,
+				A80F78CA1C89662E0081E9B5 /* ViewController.swift */,
+				A80F78CC1C89662E0081E9B5 /* Main.storyboard */,
+				A80F78CF1C89662E0081E9B5 /* Assets.xcassets */,
+				A80F78D11C89662E0081E9B5 /* LaunchScreen.storyboard */,
+				A80F78D41C89662E0081E9B5 /* Info.plist */,
+			);
+			path = ArnavTask1;
+			sourceTree = "<group>";
+		};
+		A80F78DC1C89662E0081E9B5 /* ArnavTask1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A80F78DD1C89662E0081E9B5 /* ArnavTask1Tests.swift */,
+				A80F78DF1C89662E0081E9B5 /* Info.plist */,
+			);
+			path = ArnavTask1Tests;
+			sourceTree = "<group>";
+		};
+		A80F78E71C89662E0081E9B5 /* ArnavTask1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A80F78E81C89662E0081E9B5 /* ArnavTask1UITests.swift */,
+				A80F78EA1C89662E0081E9B5 /* Info.plist */,
+			);
+			path = ArnavTask1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A80F78C41C89662E0081E9B5 /* ArnavTask1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80F78ED1C89662E0081E9B5 /* Build configuration list for PBXNativeTarget "ArnavTask1" */;
+			buildPhases = (
+				A80F78C11C89662E0081E9B5 /* Sources */,
+				A80F78C21C89662E0081E9B5 /* Frameworks */,
+				A80F78C31C89662E0081E9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArnavTask1;
+			productName = ArnavTask1;
+			productReference = A80F78C51C89662E0081E9B5 /* ArnavTask1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A80F78D81C89662E0081E9B5 /* ArnavTask1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80F78F01C89662E0081E9B5 /* Build configuration list for PBXNativeTarget "ArnavTask1Tests" */;
+			buildPhases = (
+				A80F78D51C89662E0081E9B5 /* Sources */,
+				A80F78D61C89662E0081E9B5 /* Frameworks */,
+				A80F78D71C89662E0081E9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80F78DB1C89662E0081E9B5 /* PBXTargetDependency */,
+			);
+			name = ArnavTask1Tests;
+			productName = ArnavTask1Tests;
+			productReference = A80F78D91C89662E0081E9B5 /* ArnavTask1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A80F78E31C89662E0081E9B5 /* ArnavTask1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80F78F31C89662E0081E9B5 /* Build configuration list for PBXNativeTarget "ArnavTask1UITests" */;
+			buildPhases = (
+				A80F78E01C89662E0081E9B5 /* Sources */,
+				A80F78E11C89662E0081E9B5 /* Frameworks */,
+				A80F78E21C89662E0081E9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80F78E61C89662E0081E9B5 /* PBXTargetDependency */,
+			);
+			name = ArnavTask1UITests;
+			productName = ArnavTask1UITests;
+			productReference = A80F78E41C89662E0081E9B5 /* ArnavTask1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80F78BD1C89662E0081E9B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mayank;
+				TargetAttributes = {
+					A80F78C41C89662E0081E9B5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A80F78D81C89662E0081E9B5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A80F78C41C89662E0081E9B5;
+					};
+					A80F78E31C89662E0081E9B5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A80F78C41C89662E0081E9B5;
+					};
+				};
+			};
+			buildConfigurationList = A80F78C01C89662E0081E9B5 /* Build configuration list for PBXProject "ArnavTask1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A80F78BC1C89662E0081E9B5;
+			productRefGroup = A80F78C61C89662E0081E9B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A80F78C41C89662E0081E9B5 /* ArnavTask1 */,
+				A80F78D81C89662E0081E9B5 /* ArnavTask1Tests */,
+				A80F78E31C89662E0081E9B5 /* ArnavTask1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80F78C31C89662E0081E9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80F78D31C89662E0081E9B5 /* LaunchScreen.storyboard in Resources */,
+				A80F78D01C89662E0081E9B5 /* Assets.xcassets in Resources */,
+				A80F78CE1C89662E0081E9B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80F78D71C89662E0081E9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80F78E21C89662E0081E9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80F78C11C89662E0081E9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80F78CB1C89662E0081E9B5 /* ViewController.swift in Sources */,
+				A80F78C91C89662E0081E9B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80F78D51C89662E0081E9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80F78DE1C89662E0081E9B5 /* ArnavTask1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80F78E01C89662E0081E9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80F78E91C89662E0081E9B5 /* ArnavTask1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A80F78DB1C89662E0081E9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A80F78C41C89662E0081E9B5 /* ArnavTask1 */;
+			targetProxy = A80F78DA1C89662E0081E9B5 /* PBXContainerItemProxy */;
+		};
+		A80F78E61C89662E0081E9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A80F78C41C89662E0081E9B5 /* ArnavTask1 */;
+			targetProxy = A80F78E51C89662E0081E9B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A80F78CC1C89662E0081E9B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80F78CD1C89662E0081E9B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A80F78D11C89662E0081E9B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80F78D21C89662E0081E9B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A80F78EB1C89662E0081E9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80F78EC1C89662E0081E9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80F78EE1C89662E0081E9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArnavTask1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodeBrewLabs.ArnavTask1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A80F78EF1C89662E0081E9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArnavTask1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodeBrewLabs.ArnavTask1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A80F78F11C89662E0081E9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArnavTask1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodeBrewLabs.ArnavTask1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArnavTask1.app/ArnavTask1";
+			};
+			name = Debug;
+		};
+		A80F78F21C89662E0081E9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArnavTask1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodeBrewLabs.ArnavTask1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArnavTask1.app/ArnavTask1";
+			};
+			name = Release;
+		};
+		A80F78F41C89662E0081E9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArnavTask1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodeBrewLabs.ArnavTask1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ArnavTask1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A80F78F51C89662E0081E9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArnavTask1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodeBrewLabs.ArnavTask1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ArnavTask1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80F78C01C89662E0081E9B5 /* Build configuration list for PBXProject "ArnavTask1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80F78EB1C89662E0081E9B5 /* Debug */,
+				A80F78EC1C89662E0081E9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80F78ED1C89662E0081E9B5 /* Build configuration list for PBXNativeTarget "ArnavTask1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80F78EE1C89662E0081E9B5 /* Debug */,
+				A80F78EF1C89662E0081E9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A80F78F01C89662E0081E9B5 /* Build configuration list for PBXNativeTarget "ArnavTask1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80F78F11C89662E0081E9B5 /* Debug */,
+				A80F78F21C89662E0081E9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A80F78F31C89662E0081E9B5 /* Build configuration list for PBXNativeTarget "ArnavTask1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80F78F41C89662E0081E9B5 /* Debug */,
+				A80F78F51C89662E0081E9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80F78BD1C89662E0081E9B5 /* Project object */;
+}
