@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E8A4F5F1CC0D71300C757EB /* PininterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8A4F5E1CC0D71300C757EB /* PininterestLayout.swift */; };
 		A80F78C91C89662E0081E9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80F78C81C89662E0081E9B5 /* AppDelegate.swift */; };
-		A80F78CB1C89662E0081E9B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80F78CA1C89662E0081E9B5 /* ViewController.swift */; };
 		A80F78CE1C89662E0081E9B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80F78CC1C89662E0081E9B5 /* Main.storyboard */; };
 		A80F78D01C89662E0081E9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80F78CF1C89662E0081E9B5 /* Assets.xcassets */; };
 		A80F78D31C89662E0081E9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80F78D11C89662E0081E9B5 /* LaunchScreen.storyboard */; };
 		A80F78DE1C89662E0081E9B5 /* ArnavTask1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80F78DD1C89662E0081E9B5 /* ArnavTask1Tests.swift */; };
 		A80F78E91C89662E0081E9B5 /* ArnavTask1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80F78E81C89662E0081E9B5 /* ArnavTask1UITests.swift */; };
+		A80F78F71C8966C60081E9B5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80F78F61C8966C60081E9B5 /* CollectionViewCell.swift */; };
+		A84ADDD11C91498800309038 /* DragCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84ADDD01C91498800309038 /* DragCollectionViewController.swift */; };
+		A84ADDD71C9157F000309038 /* pin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84ADDD21C9157F000309038 /* pin1.jpg */; };
+		A84ADDD81C9157F000309038 /* pin3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84ADDD31C9157F000309038 /* pin3.jpg */; };
+		A84ADDD91C9157F000309038 /* pin2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84ADDD41C9157F000309038 /* pin2.jpg */; };
+		A84ADDDA1C9157F000309038 /* pin4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84ADDD51C9157F000309038 /* pin4.jpg */; };
+		A84ADDDB1C9157F000309038 /* pin5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84ADDD61C9157F000309038 /* pin5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E8A4F5E1CC0D71300C757EB /* PininterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PininterestLayout.swift; sourceTree = "<group>"; };
 		A80F78C51C89662E0081E9B5 /* ArnavTask1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArnavTask1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80F78C81C89662E0081E9B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A80F78CA1C89662E0081E9B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A80F78CD1C89662E0081E9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A80F78CF1C89662E0081E9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A80F78D21C89662E0081E9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		A80F78E41C89662E0081E9B5 /* ArnavTask1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArnavTask1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80F78E81C89662E0081E9B5 /* ArnavTask1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArnavTask1UITests.swift; sourceTree = "<group>"; };
 		A80F78EA1C89662E0081E9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80F78F61C8966C60081E9B5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A84ADDD01C91498800309038 /* DragCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragCollectionViewController.swift; sourceTree = "<group>"; };
+		A84ADDD21C9157F000309038 /* pin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pin1.jpg; sourceTree = "<group>"; };
+		A84ADDD31C9157F000309038 /* pin3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pin3.jpg; sourceTree = "<group>"; };
+		A84ADDD41C9157F000309038 /* pin2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pin2.jpg; sourceTree = "<group>"; };
+		A84ADDD51C9157F000309038 /* pin4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pin4.jpg; sourceTree = "<group>"; };
+		A84ADDD61C9157F000309038 /* pin5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pin5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +112,16 @@
 			isa = PBXGroup;
 			children = (
 				A80F78C81C89662E0081E9B5 /* AppDelegate.swift */,
-				A80F78CA1C89662E0081E9B5 /* ViewController.swift */,
+				A84ADDD01C91498800309038 /* DragCollectionViewController.swift */,
+				2E8A4F5E1CC0D71300C757EB /* PininterestLayout.swift */,
+				A80F78F61C8966C60081E9B5 /* CollectionViewCell.swift */,
 				A80F78CC1C89662E0081E9B5 /* Main.storyboard */,
 				A80F78CF1C89662E0081E9B5 /* Assets.xcassets */,
+				A84ADDD21C9157F000309038 /* pin1.jpg */,
+				A84ADDD31C9157F000309038 /* pin3.jpg */,
+				A84ADDD41C9157F000309038 /* pin2.jpg */,
+				A84ADDD51C9157F000309038 /* pin4.jpg */,
+				A84ADDD61C9157F000309038 /* pin5.jpg */,
 				A80F78D11C89662E0081E9B5 /* LaunchScreen.storyboard */,
 				A80F78D41C89662E0081E9B5 /* Info.plist */,
 			);
@@ -230,8 +251,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A80F78D31C89662E0081E9B5 /* LaunchScreen.storyboard in Resources */,
+				A84ADDD81C9157F000309038 /* pin3.jpg in Resources */,
 				A80F78D01C89662E0081E9B5 /* Assets.xcassets in Resources */,
+				A84ADDDB1C9157F000309038 /* pin5.jpg in Resources */,
 				A80F78CE1C89662E0081E9B5 /* Main.storyboard in Resources */,
+				A84ADDD91C9157F000309038 /* pin2.jpg in Resources */,
+				A84ADDD71C9157F000309038 /* pin1.jpg in Resources */,
+				A84ADDDA1C9157F000309038 /* pin4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80F78CB1C89662E0081E9B5 /* ViewController.swift in Sources */,
 				A80F78C91C89662E0081E9B5 /* AppDelegate.swift in Sources */,
+				2E8A4F5F1CC0D71300C757EB /* PininterestLayout.swift in Sources */,
+				A80F78F71C8966C60081E9B5 /* CollectionViewCell.swift in Sources */,
+				A84ADDD11C91498800309038 /* DragCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +512,7 @@
 				A80F78EF1C89662E0081E9B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80F78F01C89662E0081E9B5 /* Build configuration list for PBXNativeTarget "ArnavTask1Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +521,7 @@
 				A80F78F21C89662E0081E9B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80F78F31C89662E0081E9B5 /* Build configuration list for PBXNativeTarget "ArnavTask1UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +530,7 @@
 				A80F78F51C89662E0081E9B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,54 +8,62 @@
 
 import UIKit
 
-private let reuseIdentifier = "Cell"
+private let sectionInsets = UIEdgeInsets(top: 50.0, left: 25.0, bottom: 50.0, right: 25.0)
 
-class DragCollectionViewController: UICollectionViewController {
-    var characterArray = [String]()
-
+class DragCollectionViewController: UICollectionViewController,UICollectionViewDelegateFlowLayout, PinterestLayoutDelegate {
+   
+    @IBOutlet var myCollectionView: UICollectionView!
+var images = ["pin1.jpg","pin2.jpg","pin3.jpg","pin4.jpg","pin5.jpg","pin1.jpg","pin2.jpg","pin3.jpg","pin4.jpg","pin5.jpg","pin1.jpg","pin2.jpg","pin3.jpg","pin4.jpg","pin5.jpg","pin1.jpg","pin2.jpg","pin3.jpg","pin4.jpg","pin5.jpg"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let str: String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        
-        for i in str.characters {
-            characterArray.append(String(i))
-        }
+        if let layout = myCollectionView?.collectionViewLayout as? PininterestLayout {
+            layout.delegate = self
     }
 
-    override func didReceiveMemoryWarning() {
+    func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
     // MARK: UICollectionViewDataSource
 
-    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-        // 1
-        // Return the number of sections
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
     }
 
-
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        // 2 Return the number of items in the section
-        return characterArray.count
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return images.count
     }
+    
+    override func collectionView(collectionView:UICollectionView, heightForPhotoAtIndexPath indexPath:NSIndexPath , withWidth width:CGFloat) -> CGFloat {
+            if Int(indexPath.row%6) == 0 {
+                return 200            }
+            else{
+                return 80
+            }
+        }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        // 3
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! AlphabetCell
+        
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier("CollectionViewCell", forIndexPath: indexPath) as! CollectionViewCell
     
         // Configure the cell
-        cell.alphabetLabel.text = characterArray[indexPath.row]
+        cell.imageView.image = UIImage(named: images[indexPath.row])
     
         return cell
     }
     
     override func collectionView(collectionView: UICollectionView, moveItemAtIndexPath sourceIndexPath: NSIndexPath,toIndexPath destinationIndexPath: NSIndexPath) {
-        // swap values if sorce and destination
-        let temp = characterArray[sourceIndexPath.row]
-        characterArray[sourceIndexPath.row] = characterArray[destinationIndexPath.row]
-        characterArray[destinationIndexPath.row] = temp
+       
+        let temp = images[sourceIndexPath.row]
+        images[sourceIndexPath.row] = images[destinationIndexPath.row]
+        images[destinationIndexPath.row] = temp
+    }
+    
+    func collectionView(collectionView: UICollectionView,
+        layout collectionViewLayout: UICollectionViewLayout,
+        insetForSectionAtIndex section: Int) -> UIEdgeInsets {
+            return sectionInsets
     }
 }
